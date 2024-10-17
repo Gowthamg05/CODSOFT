@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #357ABD;
+}
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.name-tagline {
+    text-align: right;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+#about {
+    padding: 3rem 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    color: #070101;
+    margin-bottom: 1.5rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #080101;
+    max-width: 600px;
+}
+#skills {
+    padding: 3rem 5%;
+    background-color: #fafcfd;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 25px;
+    height: 25px;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background-color:green;
+    border-radius: 25px;
+}
+#projects {
+    padding: 3rem 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 1rem;
+}
+#resume {
+    padding: 3rem 5%;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: green
+}
+#contact {
+    padding: 3rem 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
